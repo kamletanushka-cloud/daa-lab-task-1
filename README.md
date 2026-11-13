@@ -106,6 +106,44 @@ Chemistry
 
 Level order traversal visits all nodes level by level from left to right. It starts with the top-level nodes and then moves to the next level until every node has been visited.
 
+
+## Part 4. Count the Steps
+
+### Input:
+- Single loop: 1 to 5
+- Single loop: n = 20
+- Nested loop: i = 1 to 5, j = 1 to 5
+- Nested loop: n = 10
+
+### Output:
+- Single loop runs: 5 times
+- Single loop for n = 20: 20 times
+- Nested loop runs: 25 times
+- Nested loop for n = 10: 100 times
+
+### Dry Run:
+
+1. Single loop (1 to 5):
+   - The loop executes 5 times.
+   - Each iteration prints the value of i.
+
+2. Single loop (n = 20):
+   - The loop executes 20 times.
+
+3. Nested loop (1 to 5):
+   - The outer loop executes 5 times.
+   - The inner loop executes 5 times for each outer iteration.
+   - Total executions = 5 × 5 = 25.
+
+4. Nested loop (n = 10):
+   - Total executions = 10 × 10 = 100.
+
+### Explanation:
+
+A single loop has linear time complexity O(n) because the number of operations increases proportionally with the input size.
+
+A nested loop has quadratic time complexity O(n²) because the inner loop executes n times for every iteration of the outer loop. Therefore, the number of operations increases more rapidly as the input size grows.
+
 ---
 
 # Repository Files
