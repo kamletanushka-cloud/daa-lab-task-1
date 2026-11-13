@@ -146,21 +146,28 @@ A nested loop has quadratic time complexity O(n²) because the inner loop execut
 
 ---
 
-# Repository Files
+
+## Repository Files
 
 - README.md
 - part1_trace.py
 - part2_stack_queue.py
 - part3_tree.py
+- part4_complexity.py
+
 
 ---
 
-# Time Complexity
 
-- Part 1 (Finding Maximum): **O(n)**
-- Part 1 (Sorting): **O(n log n)**
-- Part 2 (Stack/Queue): **O(n)**
-- Part 3 (Level Order Traversal): **O(n)**
+## Time Complexity
+
+- Part 1 (Finding Maximum): O(n)
+- Part 1 (Sorting): O(n log n)
+- Part 2 (Stack/Queue): O(n)
+- Part 3 (Level Order Traversal): O(n)
+- Part 4 (Single Loop): O(n)
+- Part 4 (Nested Loop): O(n²)
+
 
 ---
 
